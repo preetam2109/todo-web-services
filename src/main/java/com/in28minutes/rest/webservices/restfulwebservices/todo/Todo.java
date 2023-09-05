@@ -6,11 +6,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
-//@Entity
+@Entity
 public class Todo {
 	
-//	@Id
-//	@GeneratedValue
+	@Id
+	@GeneratedValue
 	private Long id;
 	
 	private String username;

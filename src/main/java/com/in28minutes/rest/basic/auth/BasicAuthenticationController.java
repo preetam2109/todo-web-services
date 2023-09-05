@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.basic.auth;
+package com.in28minutes.rest.basic.auth;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,4 +13,5 @@ public class BasicAuthenticationController {
 		//throw new RuntimeException("Some Error has Happened! Contact Support at ***-***");
 		return new AuthenticationBean("You are authenticated");
 	}
+
 }

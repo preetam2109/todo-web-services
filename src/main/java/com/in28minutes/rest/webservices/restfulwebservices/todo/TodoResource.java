@@ -18,8 +18,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.in28minutes.rest.webservices.restfulwebservices.todo.Todo;
 
-@CrossOrigin(origins="http://localhost:4200")
-@RestController
+//@CrossOrigin(origins="http://localhost:4200")
+//@RestController
 public class TodoResource {
 	
 	@Autowired
