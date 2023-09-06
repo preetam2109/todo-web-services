@@ -50,7 +50,7 @@ public class JWTWebSecurityConfig {
 		return httpSecurity
 				.authorizeHttpRequests(auth -> auth
 						.requestMatchers("/authenticate", "/hello-world", "/hello-world-bean").permitAll()
-						.requestMatchers(PathRequest.toH2Console()).permitAll() // h2-console is a servlet and NOT recommended for a production
+//						.requestMatchers(PathRequest.toH2Console()).permitAll() // h2-console is a servlet and NOT recommended for a production
 						.requestMatchers(HttpMethod.OPTIONS,"/**")
 						.permitAll()
 						.anyRequest()
